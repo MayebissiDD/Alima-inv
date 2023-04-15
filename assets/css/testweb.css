@@ -1,0 +1,474 @@
+/*
+
+plan css des pages
+---------------------------------------------
+contenus
+------------------------------------------------
+1. Typography
+2. General
+3. Nav
+4. Hero Carousel
+5. Accordion
+6. Shop
+7. Product
+8. Carousel Hero
+9. Carousel Brand
+10. Services
+11. Contact map
+12. Footer
+13. Small devices (landscape phones, 576px and up)
+14. Medium devices (tablets, 768px and up)
+15. Large devices (desktops, 992px and up)
+16. Extra large devices (large desktops, 1200px and up)
+--------------------------------------------- */
+
+
+
+
+/* Typography */
+body,
+ul,
+li,
+p,
+a,
+label,
+input,
+div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px !important;
+  font-weight: 300 !important;
+}
+
+.h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px !important;
+  font-weight: 200 !important;
+}
+
+.h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;
+}
+
+.h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px !important;
+}
+
+/* General */
+.logo {
+  font-weight: 500 !important;
+  width: 60px;
+  height: 50px;
+}
+
+.text-rose {
+  color: #f8a8cd !important;
+}
+
+.text-muted {
+  color: #bcbcbc !important;
+}
+
+.text-success {
+  color: #511be7f9 !important;
+}
+
+.text-light {
+  color: #fff !important;
+}
+
+.bg-dark {
+  background-color: #212934 !important;
+}
+
+.bg-light {
+  background-color: #d5dde8 !important;
+}
+
+.bg-black {
+  background-color: #1d242d !important;
+}
+
+.bg-success {
+  background-color: #511be7f9 !important;
+}
+
+.btn-success {
+  background-color: #511be7f9 !important;
+  border-color: #361a80f9 !important;
+}
+
+.pagination .page-link:hover {
+  color: #000;
+}
+
+.pagination .page-link:hover,
+.pagination .page-link.active {
+  background-color: #361a80f9;
+  color: #fff;
+}
+
+/* Nav */
+#primo_nav_top {
+  min-height: 40px;
+}
+
+#primo_nav_top * {
+  font-size: .9em !important;
+}
+
+#primo_main_nav a {
+  color: #212934;
+}
+
+#primo_main_nav a:hover {
+  color: #361a80f9;
+}
+
+#primo_main_nav .navbar .nav-icon {
+  margin-right: 20px;
+}
+
+/* Hero Carousel */
+#banner-carousel {
+  background: #efefef !important;
+}
+
+/* Accordion */
+.ecoplus-accordion a {
+  color: #000;
+}
+
+.ecoplus-accordion a:hover {
+  color: #333d4a;
+}
+
+/* Product */
+.product-wap {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.product-wap .product-color-dot.color-dot-rose {
+  background: #f8a8cd;
+}
+
+.product-wap .product-color-dot.color-dot-blue {
+  background: #6db4fe;
+}
+
+.product-wap .product-color-dot.color-dot-black {
+  background: #000000;
+}
+
+.product-wap .product-color-dot.color-dot-light {
+  background: #e0e0e0;
+}
+
+.product-wap .product-color-dot.color-dot-green {
+  background: #511be7f9;
+}
+
+.card.product-wap .card .product-overlay {
+  background: rgba(0, 0, 0, .2);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+}
+
+.card.product-wap:hover .card .product-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.card.product-wap a {
+  color: #000;
+}
+
+#carousel-related-product .slick-slide:focus {
+  outline: none !important;
+}
+
+#carousel-related-product .slick-dots li button:before {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+/* Brand */
+.brand-img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s;
+}
+
+.brand-img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Carousel Hero */
+#banner-carousel .carousel-indicators li {
+  margin-top: -50px;
+  background-color: #511be7f9;
+}
+
+#banner-carousel .carousel-control-next i,
+#banner-carousel .carousel-control-prev i {
+  color: #511be7f9 !important;
+  font-size: 2.8em !important;
+}
+
+/* Carousel Brand */
+.star-brand-carousel .h1 {
+  font-size: .5em !important;
+  color: #000 !important;
+}
+
+/* Services */
+.services-icon-wap {
+  transition: .3s;
+}
+
+.services-icon-wap:hover,
+.services-icon-wap:hover i {
+  color: #fff;
+}
+
+.services-icon-wap:hover {
+  background: #511be7f9;
+} 
+
+/* Contact map */
+.leaflet-control a,
+.leaflet-control {
+  font-size: 10px !important;
+}
+
+.form-control {
+  border: 1px solid #e8e8e8;
+}
+
+/* Footer */
+
+#tempaltemo_footer a {
+  color: #dcdde1;
+}
+
+#tempaltemo_footer a:hover {
+  color: #f89494;
+}
+
+#tempaltemo_footer ul.footer-link-list li {
+  padding-top: 10px;
+}
+
+#tempaltemo_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+}
+
+#tempaltemo_footer ul.footer-icons li:hover {
+  background-color: #cfd6e1;
+  transition: .5s;
+}
+
+#tempaltemo_footer ul.footer-icons li:hover i {
+  color: #212934;
+  transition: .5s;
+}
+
+#tempaltemo_footer .border-light {
+  border-color: #2d343f !important;
+}
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+*/
+/* Small devices (landscape phones, 576px and up)*/
+.product-wap .h3,
+.product-wap li,
+.product-wap i,
+.product-wap p {
+  font-size: 12px !important;
+}
+
+.product-wap .product-color-dot {
+  width: 6px;
+  height: 6px;
+}
+
+@media (min-width: 576px) {
+  .star-brand-carousel .h1 {
+    font-size: 1em !important;
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #primo_main_nav .navbar-nav {
+    max-width: 450px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #primo_main_nav .navbar-nav {
+    max-width: 635px;
+  }
+
+  #banner-carousel .carousel-item {
+    min-height: 30rem !important;
+  }
+
+  .product-wap .h3,
+  .product-wap li,
+  .product-wap i,
+  .product-wap p {
+    font-size: 18px !important;
+  }
+
+  .product-wap .product-color-dot {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .sm\:bg-cover {
+    background-size: cover;
+  }
+}
+
+
+/* Login */
+.auth-a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.auth-a .content{
+  max-width: 500px;
+  width: 95%;
+}
+
+.auth-a .content h3{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.auth-a .content .form-auth{
+  display: block;
+  padding: 15px 20px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.auth-a .content .form-auth h5 {
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.auth-a .content .form-auth .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.auth-a .content .form-auth .form-group label{
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.auth-a .content .form-auth .form-group input {
+  border: 2px solid #511be7f9;
+  border-radius: 10px;
+  height: 24px;
+  font-size: 17px;
+  padding: 10px 15px;
+  outline: none;
+}
+
+
+.auth-a .content .form-auth .forgot-pwd{
+  text-align: end;
+  margin-bottom: 20px;
+}
+
+.auth-a .content .form-auth .forgot-pwd a{
+  text-decoration: none;
+  color: #363232;
+  font-size: 16px;
+}
+
+.auth-a .content .form-auth .forgot-pwd a:hover{
+  text-decoration: underline;
+}
+
+.auth-a .content .form-auth .form-submit {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 11px;
+}
+
+.auth-a .content .form-auth .form-submit button {
+  width: 50%;
+  padding: 10px 30px;
+  border: none;
+  background-color: #511be7f9;
+  border-radius: 10px;
+  color: #361a80f9;
+}
+
+.auth-a .content .form-auth .signup-link{
+  text-align: center;
+}
+
+.auth-a .content .form-auth .signup-link a{
+  color: #511be7f9;
+  font-weight: 600;
+}
+
+.auth-a .content .form-auth .pic_user{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.auth-a .content .form-auth .pic_user img{
+  width: 130px;
+  height: 130px;
+  border: 2px solid #511be7f9;
+  padding: 5px;
+  border-radius: 50%;
+
+}
+
+.auth-a .content .form-auth .pic_user label{
+  position: absolute;
+  font-size: 30px;
+  background-color: #ccc;
+  padding: 10px ;
+  border-radius: 50%;
+  color: rgb(255, 254, 254);
+  opacity: .6;
+}
+
+
+.auth-a .content .form-auth .pic_user input{
+  display: none;
+}
+
+/* contact */
+.grid{
+  display: grid;
+  grid-gap: 4px;
+  grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Alima Investissement</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/testweb.css">
+
+    <!-- fonts used styles -->
+    
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+</head>
+
+<body>
+
+    <!--1er nav  Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="primo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none"
+                        href="mail:info@alima.inv.com">info@alima.inv.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:+242 06 600 66 66">+242 06 600
+                        66 66</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://facebook.com/" target="_blank" rel="sponsored"><i
+                            class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i
+                            class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://telegram.com/" target="_blank"><i
+                            class="fab fa-telegram fa-sm fa-fw me-2"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+                <img src="./assets/img/nouv1.png" alt="LOGO" style="width:200px; height: 50px;">
+
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#primo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+                id="primo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#FAQs">FAQS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Recherchez ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal"
+                        data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                    <!--  link vers login et register  -->
+                    <a class="nav-icon position-relative text-decoration-none" href="./login.html">
+                        <i class="fas fa-sign-in-alt fa-cart-arrow-down text-dark mr-1"></i>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="register.html">
+                        <i class="fa fa-fw fa-user-plus text-dark mr-3"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Recherchez ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Start Banner -->
+    <div id="banner-carousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#banner-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#banner-carousel" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/ban-1.png" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1 text-success"><b>VOS BESOINS, NOS SSERVICES</b></h1>
+                                <p>
+                                    Jouissez des solutions répondant directement à vos besoins les plus spécifiques
+                                    quelque soit votre taille, complexité et domaine d’activité
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/ban-2.png" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1 text-success"><b>VOTRE SATISFACTION, NOTRE DEVISE</b></h1>
+                                <h3 class="h2"></h3>
+                                <p>
+                                    Nous nous engageons à vous fournir une implication, réactivité, disponibilité et
+                                    motivation totales transformant vos préconisations en action et résultats.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#banner-carousel" role="button"
+            data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#banner-carousel" role="button"
+            data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- close Banner -->
+
+
+
+    <!-- Start Section services -->
+    <section id="services" class="container py-5">
+        <div class="row text-center pt-5 pb-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">
+                    <b>Nos Services</b>
+                </h1>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-4 col-lg-4 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <div class="h1 text-success text-center"><i class="fas fa-exchange-alt"></i></div>
+                    <h2 class="h5 mt-4 text-center">Investissement</h2>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <div class="h1 text-success text-center"><i class="fa fa-truck fa-lg"></i></div>
+                    <h2 class="h5 mt-4 text-center">Collaboration</h2>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <div class="h1 text-success text-center"><i class="fa fa-percent"></i></div>
+                    <h2 class="h5 mt-4 text-center">Coaching</h2>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+    <!-- close Section -->
+
+    <!-- Start FAQs -->
+    <section id="FAQs" class="container py-5">
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1"><b>FAQs</b></h1>
+                    <h1 class="h1">Ce que nous faisons</h1>
+            </div>
+        </div>
+
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header  text-red">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        <i class="fas fa-dot-circle"> </i> Site internet
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <strong>
+                            <h5> Création de site internet</h5>
+                            <h5>E-commerce</h5>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header text-red">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        <i class="fas fa-dot-circle"> </i> Logiciel sur mesure
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>
+                            <h5>Application mobile</h5>
+                            <h5> Application métier</h5>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header text-red">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        <i class="fas fa-dot-circle"> </i> Formations professionnelles
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>
+                           <h5><i class="bi bi-1-circle-sucess"></i> Développement web et mobile</h5> 
+                           <h5><i class="bi bi-2-circle-sucess"></i> Graphique design</h5>
+                          <h5> <i class="bi bi-3-circle-sucess"></i> Administration base de données</h5>
+                          <h5> <i class="bi bi-4-circle-sucess"></i> Informatique bureautique</h5>
+                            <h5> <i class="bi bi-5-circle-sucess"></i> Anglais professionnelle</h5>
+
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header text-red">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        <i class="fas fa-dot-circle"> </i> Communication digitale
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <h5>Atteignez vos objectifs 
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header ttext-red">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        <i class="fas fa-dot-circle"> </i>  E-mail pros &  Hébergement
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <h5><i></i>Un accompagnement sans faille
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+        <!-- close nos objectifs -->
+
+
+        <!-- Start Nous sommes -->
+        <section id="about" class="bg-success py-5">
+            <div class="container">
+                <div class="row align-items-center py-5">
+                    <div class="col-md-6 text-white">
+                        <!-- <img src="./assets/img/nouv1.png" alt="Mon logo"> -->
+                        <h1 class="text-red">Alima Inv</h1>
+                        <p>
+                            Entreprise de conception et implémentation de solutions informatiques sur mesure. Elle se
+                            met au
+                            service des particuliers et entreprises dans tous les domaines d’activités
+                                <br><br>
+                            de leurs besoins et attentes qu’elle enrichit par les conseils judicieux de ses experts afin
+                            d’aboutir a des solutions bâties par leurs attentes parfois même les dépasser.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/booh.png" alt="About Hero" style="width: 500px; height: 500px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- close Nous sommes -->
+
+
+        <!-- Start Partenaires -->
+        <section class="bg-light py-5">
+            <div class="container my-4">
+                <div class="row text-center py-3">
+                    <div class="col-lg-6 m-auto">
+                        <h1 class="h1">Ils nous ont fait confiance</h1>
+                        <p>
+                        </p>
+                    </div>
+                    <div class="col-lg-9 m-auto star-brand-carousel">
+                        <div class="row d-flex flex-row">
+                            <!--Controls-->
+                            <div class="col-1 align-self-center">
+                                <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="prev">
+                                    <i class="text-light fas fa-chevron-left"></i>
+                                </a>
+                            </div>
+                            <!--End Controls-->
+
+                            <!--Carousel Wrapper-->
+                            <div class="col">
+                                <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="templatemo-slide-brand"
+                                    data-bs-ride="carousel">
+                                    <!--Slides-->
+                                    <div class="carousel-inner product-links-wap" role="listbox">
+
+
+
+                                        <!--First slide-->
+                                        <div class="carousel-item active">
+                                            <div class="row">
+                                                <div class="col-4 p-md-5">
+                                                    <a href="#"><img class="img-fluid brand-img"
+                                                            src="assets/img/brand_01.png" alt="Brand Logo"></a>
+                                                </div>
+                                                <div class="col-4 p-md-5">
+                                                    <a href="#"><img class="img-fluid brand-img"
+                                                            src="assets/img/brand_02.png" alt="Brand Logo"></a>
+                                                </div>
+                                                <div class="col-4 p-md-5">
+                                                    <a href="#"><img class="img-fluid brand-img"
+                                                            src="assets/img/brand_03.png" alt="Brand Logo"></a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <!--close First slide-->
+
+                                        <!--Second slide-->
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <div class="col-4 p-md-5">
+                                                    <a href="#"><img class="img-fluid brand-img"
+                                                            src="assets/img/brand_01.png" alt="Brand Logo"></a>
+                                                </div>
+                                                <div class="col-4 p-md-5">
+                                                    <a href="#"><img class="img-fluid brand-img"
+                                                            src="assets/img/brand_02.png" alt="Brand Logo"></a>
+                                                </div>
+                                                <div class="col-4 p-md-5">
+                                                    <a href="#"><img class="img-fluid brand-img"
+                                                            src="assets/img/brand_03.png" alt="Brand Logo"></a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <!--close Second slide-->
+
+
+
+                                    </div>
+                                    <!--close Slides-->
+                                </div>
+                            </div>
+                            <!--close Carousel Wrapper-->
+
+                            <!--Controls-->
+                            <div class="col-1 align-self-center">
+                                <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="next">
+                                    <i class="text-light fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                            <!--close Controls-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--close Brands-->
+
+        <!-- Start Footer -->
+        <footer class="bg-success" id="tempaltemo_footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4 pt-5">
+                        <img src="./assets/img/nouv1.png" alt="LOGO" style="width:200px; height: 50px;">
+
+
+                        <!-- <h2 class="h2 text-red border-bottom pb-3 border-light logo">Nouvic</h2> -->
+                        <ul class="list-unstyled text-light footer-link-list">
+                            <li>
+                                <i class="fas fa-map-marker-alt fa-fw"></i>
+                                31 rue Mabgsas, Brazzaville
+                            </li>
+                            <li>
+                                <i class="fa fa-phone fa-fw"></i>
+                                <a class="text-decoration-none" href="tel:+242 06 600 66 66">+242 06 600 66 66</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope fa-fw"></i>
+                                <a class="text-decoration-none" href="mail:info@alima.inv.com">info@alima.inv.com</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 pt-5">
+                        <h2 class="h2 text-light border-bottom pb-3 border-light">Services</h2>
+                        <ul class="list-unstyled text-light footer-link-list">
+                            <li><a class="text-decoration-none" href="#">Investissement</a></li>
+                            <li><a class="text-decoration-none" href="#">Collaboration</a></li>
+                            <li><a class="text-decoration-none" href="#">Coaching</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 pt-5">
+                        <h2 class="h2 text-light border-bottom pb-3 border-light">Menu</h2>
+                        <ul class="list-unstyled text-light footer-link-list">
+                            <li><a class="text-decoration-none" href="index.html">Acceuil</a></li>
+                            <li><a class="text-decoration-none" href="#services">Services</a></li>
+                             <li><a class="text-decoration-none" href="#FAQs">FAQs</a></li>
+                            <li><a class="text-decoration-none" href="#about">A propos</a></li>
+                            <li><a class="text-decoration-none" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="row text-light mb-4">
+                    <div class="col-12 mb-3">
+                        <div class="w-100 my-3 border-top border-light"></div>
+                    </div>
+                    <div class="col-auto me-auto">
+                        <ul class="list-inline text-left footer-icons">
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-light text-decoration-none" target="_blank"
+                                    href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                            </li>
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-light text-decoration-none" target="_blank"
+                                    href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                            </li>
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-light text-decoration-none" target="_blank"
+                                    href="https://telegram.com/"><i class="fab fa-telegram fa-lg fa-fw"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <label class="sr-only" for="subscribeEmail">Abnnez vous à notre boite aux lettres</label>
+                        <div class="input-group mb-2">
+                            <input type="text" class="form-control bg-dark border-light" id="subscribeEmail"
+                                placeholder="Votre Email">
+                            <div class="input-group-text btn-success text-light">S'inccrire</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-100 bg-black py-3">
+                <div class="container">
+                    <div class="row pt-2">
+                        <div class="col-12">
+                            <p class="text-left text-light">
+                                Copyright &copy; 2023
+                                | Designed by <a rel="sponsored" href="" target="_blank">Mayebissi</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- close Footer -->
+
+        <!-- Start Script -->
+        <script src="assets/js/jquery-1.11.0.min.js"></script>
+        <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/ecoplus.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <!-- close Script -->
+</body>
+
+</html>
